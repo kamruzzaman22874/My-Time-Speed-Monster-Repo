@@ -11,12 +11,13 @@ body {
   font-family: "Zilla Slab", serif;
 }
 header{
-  background: #262727;
+  background: #eb6565;
   padding: 20px;
 }
 nav{
   display: flex;
   justify-content: space-around;
+
 }
 .heading-tittle{
   color:rgb(219, 216, 208);
@@ -29,7 +30,7 @@ nav{
   font-weight: 700;
 }
 .menu-link .blog{
-  color:burlywood;
+  color:lightblue;
   margin-left: 10px;
   font-size: 35px;
   font-weight: 700;
