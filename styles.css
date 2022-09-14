@@ -10,7 +10,28 @@ body {
   background-position: left top;
   font-family: "Zilla Slab", serif;
 }
-
+header{
+  background: #262727;
+  padding: 20px;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+.heading-tittle{
+  color:#fff;
+  font-size: 30px;
+  font-weight: normal;
+}
+.menu-link .home{
+  color:#fff;
+  font-size: 22px;
+}
+.menu-link .blog{
+  color:#fff;
+  margin-left: 10px;
+  font-size: 22px;
+}
 .box-container {
   width: 70%;
   margin: 0 auto;
@@ -180,6 +201,7 @@ button {
   position: fixed;
   top: 0;
 }
+
 
 
 @media only screen and (max-width: 577px) {
