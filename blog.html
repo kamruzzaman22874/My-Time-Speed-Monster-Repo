@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>    
+
+</head>
+<body>
+    <section class="container mt-5">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <span class="h2">What is difference between localStorage and sessionStorage :</span>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p><span class="text-primary">LocalStorage:</span> This read-only interface property provides access to the Document’s local storage object, the stored data is stored across browser sessions. Similar to sessionStorage, except that localStorage data gets cleared when the page session ends.That is when the page is closed. It is cleared when the last “private” tab of a browser is closed (localStorage data for a document loaded in a private browsing or incognito session).</p>
+                    <p><span class="text-primary">SessionStorage:</span>Session Storage objects can be accessed using the sessionStorage read-only property. The difference between sessionStorage and localStorage is that localStorage data does not expire, whereas sessionStorage data is cleared when the page session ends.
+                    A unique page session gets created once a document is loaded in a browser tab. Page sessions are valid for only one tab at a time. Pages are only saved for the amount of time that the tab or the browser is open; they do not persist after the page reloads and restores. A new session is created each time a tab or window is opened; this is different from session cookies.A unique page session gets created once a document is loaded in a browser tab. Page sessions are valid for only one tab at a time.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <span class="h2">Global scope and Block scope :</span>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p><span class="text-primary">Global Skope:</span>The variables defined outside of any function or curly brackets are known as global variables and have global scope. Global scope means that the variables can be accessed from any part of that program, any function or conditional state can access that variable.</p>
+                  <p><span class="text-primary">Block Scope</span>Block scope is also a sub-type of local scope. The block scope can be defined as the scope of the variables inside the curly brackets {}. Now, these curly brackets can be of loops, or conditional statements, or something else. You are only allowed to refer to these variables from within the curly brackets {}.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <span class="h2">Event loop in JS :</span>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p><span class="text-primary">Event Loop:</span>A block scoped variable means that the variable defined within a block will not be accessible from outside the block.The call stack is responsible for keeping track of all the operations in line to be executed. Whenever a function is finished, it is popped from the stack.The event queue is responsible for sending new functions to the stack for processing. It follows the queue data structure to maintain the correct sequence in which all operations should be sent for execution.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <span class="h2">How many types of undefined :</span>
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p><span class="text-primary">Undefiend:</span>The global undefined property represents the primitive value undefined. It is one of JavaScript's primitive types. <br> 1.Writable <br> 2.Enumerable <br> 3.Configurable <br>Undefined is a property of the global object. That is, it is a variable in global scope. The initial value of undefined is the primitive value undefined.In all non-legacy browsers, undefined is a non-configurable, non-writable property. (Even when this is not the case, avoid overriding it.)
+                    A variable that has not been assigned a value is of type undefined. A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not returned.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </section>
+</body>
+</html>
