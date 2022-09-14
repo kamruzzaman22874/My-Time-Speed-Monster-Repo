@@ -19,16 +19,15 @@ nav{
   justify-content: space-around;
 }
 .heading-tittle{
-  color:#fff;
+  color:rgb(219, 216, 208);
   font-size: 30px;
-  font-weight: normal;
 }
 .menu-link .home{
-  color:#fff;
+  color:yellow;
   font-size: 22px;
 }
 .menu-link .blog{
-  color:#fff;
+  color:gray;
   margin-left: 10px;
   font-size: 22px;
 }
